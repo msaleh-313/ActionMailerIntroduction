@@ -1,0 +1,5 @@
+<div class="bg-gray-800 text-white text-center py-20">
+  <h1 class="text-5xl font-bold mb-4">Welcome <%=current_user.name%></h1>
+  <p class="text-xl mb-8">Check your Email</p>
+  <%= button_to "Log Out",destroy_user_session_path,method: :delete, class: "bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded" %>
+</div>
