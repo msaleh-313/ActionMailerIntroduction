@@ -1,24 +1,8 @@
 # README
+1--> Implemented Devise Gem for User authentication.
+2--> Implemented ActionMailer for email functionality.
+     2.1-->When New User signs up , he will be redirected to home page and email is sent to his address But Displayed in console
+     2.2-->When existing User signs in , he will be redirected to home page and email is sent to his address But Displayed in console.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
